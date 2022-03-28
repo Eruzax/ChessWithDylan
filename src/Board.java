@@ -156,7 +156,7 @@ public class Board
                 {
                     if(i == 0 && j == 0)
                     {
-                        System.out.print("  | ");
+                        System.out.print("   | ");
                     }
                     else if (i == 0)
                     {
@@ -165,7 +165,7 @@ public class Board
                     }
                     else if (j == 0)
                     {
-                        System.out.print(colCounter + " | ");
+                        System.out.print(" " + colCounter + " | ");
                         colCounter++;
                     }
                     else if (i == 1 && j == 1)
@@ -260,7 +260,7 @@ public class Board
                 }
 
             }
-            System.out.println("-----------------------------------");
+            System.out.println("------------------------------------");
         }
     }
 
